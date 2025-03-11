@@ -1,0 +1,85 @@
+.work-sans-paragraph {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(292, 42%, 14%);
+}
+
+.work-sans-text {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(292, 42%, 14%);
+}
+
+.work-sans-subtext {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(292, 16%, 49%);
+    line-height: 1, 5mm;
+}
+
+body {
+    background: url(./assets/background-pattern-desktop.jpg) no-repeat top;
+    background-color: hsl(275, 100%, 95%);
+    background-size: 100% 225px;
+}
+
+.paper {
+    max-width: 130mm;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+
+#title {
+    margin-bottom: 24px;
+    padding-left: 24px;
+    display: inline-flex;
+}
+
+#starIcon {
+    display: inline-flex;
+    align-items: baseline;
+    width: 32px;
+    color: hsl(275, 100%, 50%);
+}
+
+#mais {
+    display: inline-flex;
+    width: 25px;
+    color: hsl(275, 100%, 50%);
+    height: auto;
+    padding-left: 10px;
+
+}
+
+#minus {
+    display: none;
+    width: 25px;
+    align-items: baseline;
+    height: auto;
+    padding-left: 10px;
+
+}
+
+#subtitle {
+    margin: 24px 0px;
+    display: inline-flex;
+}
+
+#text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+}
